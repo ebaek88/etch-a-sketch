@@ -66,7 +66,7 @@ function main() {
   const buttonElement = document.querySelector(".reset");
   buttonElement.addEventListener("click", resetGrid);
 
-  // first start with 4 * 4 grid
+  // first start with 16 * 16 grid
   drawGrid();
 }
 
