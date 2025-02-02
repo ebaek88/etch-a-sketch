@@ -1,5 +1,5 @@
 // create n * n square divs
-function drawGrid(squares = 4) {
+function drawGrid(squares = 16) {
   const gridContainer = document.querySelector(".grid");
 
   for(let i = 0; i < squares; i++) {
