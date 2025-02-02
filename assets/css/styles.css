@@ -14,7 +14,22 @@ body {
 }
 
 button {
-  margin: 30px 0;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: 0;
+  padding: 8px 30px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  box-shadow: 0 9px #999;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 .grid {
@@ -37,4 +52,5 @@ button {
   border: solid black 1.5px;
   flex: 1;
   aspect-ratio: 1 / 1;
+  background-color: rgb(255 255 255 / 0);
 }
